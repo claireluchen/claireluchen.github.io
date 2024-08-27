@@ -85,6 +85,10 @@ rounded borders, text size and font*/
     padding: 1%;
 }
 
+.explanation-content {
+    text-align: left;
+}
+
 /*features common to smaller boxes, 
 e.g. centered text, font color and size*/
 .distance_from_home_earth,
