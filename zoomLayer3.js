@@ -1825,11 +1825,13 @@ document.addEventListener('DOMContentLoaded', function () {
     var clickedBox = null;
     var explanationBox = document.querySelector('.explanation');
     var defaultContent = `
-        <div class="explanation-content">
-            <p><strong>Hover</strong> over each box for their definitions.</p> 
-            <p><strong>Click</strong> on a factor and <strong>hover</strong> over its related boxes to read about their relationships.</p>
-            <p><strong>Click again</strong> to reset the diagram.</p>
-        </div>`;
+    <div class="explanation-content">
+        <p><strong>Hover</strong> over each box for their definitions.</p> 
+        <p>&nbsp;</p> <!-- extra/double spacing -->
+        <p><strong>Click</strong> on a factor and <strong>hover</strong> over its related boxes to read about their relationships.</p> 
+        <p>&nbsp;</p>
+        <p><strong>Click again</strong> to reset the diagram.</p>
+    </div>`;
     explanationBox.innerHTML = defaultContent;
 
     function resetDiagram() {
