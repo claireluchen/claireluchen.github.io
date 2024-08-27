@@ -1826,8 +1826,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var explanationBox = document.querySelector('.explanation');
     var defaultContent = `
     <div class="explanation-content">
-        <p><strong>Hover</strong> over each box for their definitions.</p> 
-        <p><strong>Click</strong> on a factor and <strong>hover</strong> over its related boxes to read about their relationships.</p> 
+        <p><p><strong>Hover</strong> over each box for their definitions.</p></p> 
+        <p><p><strong>Click</strong> on a factor and <strong>hover</strong> over its related boxes to read about their relationships.</p></p>  
         <p><strong>Click again</strong> to reset the diagram.</p>
     </div>`;
     explanationBox.innerHTML = defaultContent;
