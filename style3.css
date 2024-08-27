@@ -87,6 +87,7 @@ rounded borders, text size and font*/
 
 .explanation-content {
     text-align: left;
+    line-height: 2;
 }
 
 /*features common to smaller boxes, 
