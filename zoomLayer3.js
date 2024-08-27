@@ -1830,7 +1830,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <p><strong>Click</strong> on a factor and <strong>hover</strong> over its related boxes to read about their relationships.</p> 
         <p><strong>Click again</strong> to reset the diagram.</p>
     </div>`;
-    explanationBox.innerHTML = defaultContent;
+    explanationBox.innerHTML = defaultContent; 
 
     function resetDiagram() {
         clickedBox = null;
