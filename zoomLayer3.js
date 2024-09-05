@@ -1963,10 +1963,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // reset the diagram when clicking anywhere outside the boxes
     document.addEventListener('click', function () {
         const clickedInsideExplanation = event.target.closest('.explanation');
-        const clickedInsideBox = event.target.closest('.inner-box'); // Replace .inner-box with your actual class
 
         // Only reset if clicked outside of both explanation and inner boxes
-        if (!clickedInsideExplanation && !clickedInsideBox && clickedBox) {
+        if (!clickedInsideExplanation) {
             resetDiagram();
         }
     });
